@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Bryan Montgomery Hamilton,Thiago Castro Chaves,Gabriel Santos Moreira da Cunha ">
+	<meta name="keywords" content="TED, HTML, CSS, JSP">
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Menu</title>
+</head>
+
+
+<body>
+	<form action="Receiver.jsp" method="post">
+		<div id="div_entradas">
+			<h2><label for="entrada">Entradas</label></h2>
+			<select name="entrada" id="entrada">
+				<option value="entrada1">Pao artesanal</option>
+				<option value="entrada2">Misto quente</option>
+				<option value="entrada3">Cafe com leite</option>
+			</select>
+		</div><br>
+
+		<div id="div_prato_principal">
+			<h2><label for="prato">Pratos Principais</label></h2>
+			<select name="prato" id="prato">
+				<option value="prato1">Lasanha</option>
+				<option value="prato2">Macarrão alho e oleo</option>
+				<option value="prato3">Moqueca de Camarao</option>
+				<option value="prato4">Peixe frito</option>
+				<option value="prato5">Carne do sol</option>
+			</select>
+		</div><br>
+
+		<div id="div_sobremesa">
+			<h2><label for="sobremesa">Sobremesas</label></h2>
+			<select name="sobremesa" id="sobremesa">
+				<option value="sobremesa1">Sorvete</option>
+				<option value="sobremesa2">Picole</option>
+				<option value="sobremesa3">Mousse</option>
+			</select>
+		</div><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+
+</html>
